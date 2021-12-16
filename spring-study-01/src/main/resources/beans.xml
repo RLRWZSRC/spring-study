@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<bean id="getUser" class="com.pojo.User" >
+    <constructor-arg index="0" value="2525252"/>
+    <constructor-arg index="1" value="2525252"/>
+    <constructor-arg index="2" value="2525252"/>
+    <constructor-arg index="3" value="2525252"/>
+    <constructor-arg index="4" value="2021-12-15 18:39:22"/>
+<!--    <property name="id">-->
+<!--        <props>-->
+<!--            <prop key="id">121313</prop>-->
+<!--            <prop key="uuid">121313</prop>-->
+<!--            <prop key="name">121313</prop>-->
+<!--            <prop key="pwd">121313</prop>-->
+<!--            <prop key="creatDate">2021-12-15 18:39:22</prop>-->
+<!--        </props>-->
+<!--    </property>-->
+</bean>
+
+
+
+
+</beans>

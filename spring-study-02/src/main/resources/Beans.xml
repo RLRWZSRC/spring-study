@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:content="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <bean id="cat" class="com.wjh.demo1.cat"/>
+    <bean id="dog" class="com.wjh.demo1.dog"/>
+    <bean id="dog11" class="com.wjh.demo1.dog"/>
+    <bean id="people" class="com.wjh.demo1.People"/>
+
+    <!--
+    byname:自动查找bean中符合的pojo对象名的id
+    bytype:自动查找bean中class的属性类型是否相同
+    -->
+
+    <!--开启注解的支持-->
+    <context:annotation-config/>
+
+
+</beans>

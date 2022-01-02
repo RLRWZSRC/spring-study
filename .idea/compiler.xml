@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-study-06-AOP" />
         <module name="spring-study-04-Configuration" />
         <module name="spring-study-05" />
         <module name="spring-study-03" />
